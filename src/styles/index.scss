@@ -1,0 +1,19 @@
+@import 'common';
+@import 'reset';
+
+.textarea {
+  box-sizing: border-box;
+  display: block;
+  height: 300px;
+  width: calc(100% - 64px);
+  margin: 32px;
+}
+
+.submit {
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #00a000;
+  background-color: green;
+  padding: 8px;
+  margin: 32px;
+}
